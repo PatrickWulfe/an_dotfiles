@@ -1,0 +1,137 @@
+#+TITLE: Zsh Configuration
+#+AUTHOR: Patrick Wulfe
+#+PROPERTY: header-args:shell :tangle ~/.zshrc :comments link
+
+* Plugin Manager (Antigen)
+
+Antigen manages oh-my-zsh plugins and third-party zsh bundles.
+Requires: =brew install antigen=
+
+#+begin_src shell
+source "$HOMEBREW_PREFIX/share/antigen/antigen.zsh"
+antigen use oh-my-zsh
+
+# Oh-My-Zsh built-in plugins
+antigen bundle brew
+antigen bundle command-not-found
+antigen bundle git
+antigen bundle github
+antigen bundle macos
+antigen bundle pip
+
+# Third-party plugins (zsh-users)
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
+
+antigen apply
+#+end_src
+
+* Additional Plugin Sources
+
+"you-should-use" — reminds you of existing aliases when you type a command.
+Requires: =brew install zsh-you-should-use=
+
+#+begin_src shell
+[[ -f "$HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh" ]] && \
+  source "$HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh"
+#+end_src
+
+* Environment Variables & PATH
+
+** Editor
+
+#+begin_src shell
+export EDITOR="emacs"
+#+end_src
+
+** Java
+
+#+begin_src shell
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
+#+end_src
+
+** pkg-config
+
+#+begin_src shell
+export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:/opt/homebrew/share/pkgconfig:$PKG_CONFIG_PATH"
+#+end_src
+
+** PATH (consolidated)
+
+Flutter (FVM), Dart pub cache, Doom Emacs, Java, local scripts.
+
+#+begin_src shell
+export PATH="\
+$HOME/fvm/default/bin:\
+$HOME/.pub-cache/bin:\
+$HOME/.config/emacs/bin:\
+$JAVA_HOME/bin:\
+$HOME/.local/bin:\
+$PATH"
+#+end_src
+
+** Antigravity
+
+#+begin_src shell
+export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+#+end_src
+
+** pnpm
+
+#+begin_src shell
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+#+end_src
+
+* SSH Agent
+
+Start ssh-agent if not already running, then load keys from macOS Keychain.
+
+#+begin_src shell
+if [[ -z "$SSH_AUTH_SOCK" ]]; then
+  eval "$(ssh-agent -s)" >/dev/null
+fi
+
+ssh-add --apple-use-keychain ~/.ssh/ado 2>/dev/null
+ssh-add --apple-use-keychain ~/.ssh/id_rsa 2>/dev/null
+#+end_src
+
+* Aliases
+
+#+begin_src shell
+[[ -f "$HOME/.local/config/aliases.sh" ]] && \
+  source "$HOME/.local/config/aliases.sh"
+#+end_src
+
+* Completions
+
+Dart CLI completions (added by =dart pub global activate= tooling).
+
+#+begin_src shell
+[[ -f "$HOME/.dart-cli-completion/zsh-config.zsh" ]] && \
+  source "$HOME/.dart-cli-completion/zsh-config.zsh"
+#+end_src
+
+* Secrets
+
+Tokens and API keys are sourced from a separate file not tracked in version control.
+
+#+begin_src shell
+[[ -f "$HOME/.config/secrets.env" ]] && source "$HOME/.config/secrets.env"
+#+end_src
+
+* Prompt
+
+Starship cross-shell prompt — must be the last init to wrap everything.
+Requires: =brew install starship=
+
+#+begin_src shell
+eval "$(starship init zsh)"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+#+end_src

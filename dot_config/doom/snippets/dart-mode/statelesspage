@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: StatelessPage
+# key: slp
+# group: flutter
+# --
+import 'package:flutter/material.dart';
+
+class ${1:Subject}Page extends StatelessWidget {
+      const $1Page({Key? key}) : super(key: key);
+
+      @override
+      Widget build(BuildContext context) {
+        return const $1View();
+    }
+}
+
+class $1View extends StatelessWidget {
+      const $1View({Key? key}) : super(key: key);
+
+      @override
+      Widget build(BuildContext context) {
+             return Container($0);
+    }
+}

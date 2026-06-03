@@ -1,0 +1,1136 @@
+{
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    ".claude/rules": true,
+    "~/.copilot/instructions": true,
+    "~/.claude/rules": true,
+    "/var/folders/kz/t9flpdmd0f1dzzdq6b8f7m7h0000gq/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/kz/t9flpdmd0f1dzzdq6b8f7m7h0000gq/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/kz/t9flpdmd0f1dzzdq6b8f7m7h0000gq/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/kz/t9flpdmd0f1dzzdq6b8f7m7h0000gq/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/kz/t9flpdmd0f1dzzdq6b8f7m7h0000gq/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/kz/t9flpdmd0f1dzzdq6b8f7m7h0000gq/T/postman-http-request-pre-request.instructions.md": true,
+    "C:\\Users\\p_wul\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\p_wul\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\p_wul\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\p_wul\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\p_wul\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\p_wul\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+    "C:\\Users\\wulfep\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\wulfep\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\wulfep\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\wulfep\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\wulfep\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\wulfep\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+  },
+  "chat.mcp.gallery.enabled": true,
+  // ============================================================================
+  // CODIUM
+  // ============================================================================
+  "codium.codeCompletion.enable": false,
+  "codium.commitMessage.format": "",
+  "codium.customInstructions.allMessages": "",
+  "codium.customInstructions.specificCommands": {},
+  "codium.editorButton": true,
+  "codium.rag.maxLocalSnippets": 5,
+  "codium.rag.maxRemoteSnippets": 5,
+  "codium.terminalAllowedCommands": [
+    "cat",
+    "cd",
+    "dart",
+    "echo",
+    "find",
+    "flutter",
+    "git",
+    "grep",
+    "head",
+    "ls",
+    "melos",
+    "nl",
+    "perl",
+    "pwd",
+    "python3",
+    "rm",
+    "sed",
+    "ssh-add",
+    "tail",
+    "wc",
+    "mv",
+    "cp",
+    "Remove-Item",
+    "python3"
+  ],
+  "codium.terminalBlockedCommands": [],
+  // ============================================================================
+  // DART & FLUTTER
+  // ============================================================================
+  "dart.allowTestsOutsideTestFolder": true,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "dart.devToolsBrowser": "chrome",
+  "dart.devToolsLogFile": "~/dev/devtools_logs/",
+  "dart.flutterSdkPath": "/Users/wulfep/dev/sdks/flutter",
+  "dart.openDevTools": "flutter",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.showTodos": false,
+  "flutter-coverage.coverageFilePaths": [
+    "packages/**/coverage",
+    "projects/gather_app/coverage",
+    "projects/gather_app/packages/**/coverage"
+  ],
+  "flutter-coverage.lowCoverageThreshold": 80,
+  "flutter-coverage.sufficientCoverageThreshold": 100,
+  // ============================================================================
+  // DEBUG
+  // ============================================================================
+  "debug.console.fontFamily": "'FiraCode Nerd Font'",
+  "debug.console.fontSize": 16,
+  // ============================================================================
+  // EDITOR - General
+  // ============================================================================
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorSurroundingLines": 4,
+  "editor.fontFamily": "'FiraCode Nerd Font', 'FiraCode NF Retina', 'BlexMono NF', 'CaskaydiaCove NF'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.fontVariations": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 1.5,
+  "editor.lineNumbers": "relative",
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 90,
+  "editor.minimap.scale": 2,
+  "editor.renderWhitespace": "trailing",
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
+  // "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  // ============================================================================
+  // EXPLORER
+  // ============================================================================
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // ============================================================================
+  // EXTENSIONS
+  // ============================================================================
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1,
+    "vscodevim.vim": 1
+  },
+  // ============================================================================
+  // GIT
+  // ============================================================================
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreRebaseWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.replaceTagsWhenPull": true,
+  // ============================================================================
+  // GITHUB COPILOT
+  // ============================================================================
+  "github.copilot.advanced": {
+    "enableAutoCompletions": false,
+    "enableEditorInlineCompletions": true,
+    "enableEditorInlineSuggestions": true,
+    "enableInlineSuggestions": true
+  },
+  "github.copilot.chat.generateTests.codeLens": true,
+  "github.copilot.enable": {
+    "*": false,
+    "enableAutoCompletions": false,
+    "markdown": true,
+    "plaintext": false,
+    "scminput": false
+  },
+  // "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.fixes": false,
+  // ============================================================================
+  // GITLENS
+  // ============================================================================
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "gitlens.ai.model": "gitkraken",
+  // ============================================================================
+  // HTTP
+  // ============================================================================
+  "http.proxyAuthorization": null,
+  // ============================================================================
+  // MATERIAL ICON THEME
+  // ============================================================================
+  "material-icon-theme.activeIconPack": "vue",
+  "material-icon-theme.folders.associations": {
+    "bloc": "container",
+    "cubit": "container",
+    "domain": "middleware",
+    "entities": "class",
+    "features": "other",
+    "presentation": "animation",
+    "repository": "connection",
+    "use_cases": "controller",
+    "widgets": "components"
+  },
+  "material-icon-theme.folders.color": "#90a4ae",
+  // ============================================================================
+  // MCP SERVERS
+  // ============================================================================
+  "mcpServers": {
+    "Dart": {
+      "command": "dart",
+      "env": {},
+      "args": [
+        "mcp-server"
+      ]
+    },
+    "ado_org": {
+      "command": "npx",
+      "env": {
+        "AZURE_DEVOPS_PAT": "${env:AZURE_DEVOPS_PAT}"
+      },
+      "args": [
+        "-y",
+        "@azure-devops/mcp",
+        "${input:ado_org}"
+      ]
+    },
+    "ConfigCat": {
+      "command": "npx",
+      "env": {
+        "CONFIGCAT_API_USER": "${env:CONFIGCAT_API_USER}",
+        "CONFIGCAT_API_PASS": "${env:CONFIGCAT_API_PASS}"
+      },
+      "args": [
+        "-y",
+        "@configcat/mcp-server"
+      ]
+    },
+    "Figma-desktop": {
+      "url": "http://127.0.0.1:3845/mcp",
+      "env": {},
+      "args": []
+    },
+    "coda": {
+      "command": "npx",
+      "env": {
+        "API_KEY": "${env:CODA_API_KEY}"
+      },
+      "args": [
+        "-y",
+        "coda-mcp@latest"
+      ]
+    }
+  },
+  // ============================================================================
+  // ORG MODE
+  // ============================================================================
+  "org-code.fold": true,
+  "vscode-org-fold.languagesToFold": [
+    "org"
+  ],
+  // ============================================================================
+  // PATH INTELLISENSE
+  // ============================================================================
+  "path-intellisense.autoSlashAfterDirectory": true,
+  // ============================================================================
+  // SECURITY
+  // ============================================================================
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  // ============================================================================
+  // TERMINAL
+  // ============================================================================
+  "terminal.external.windowsExec": "%SystemRoot%\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": 100,
+  "terminal.integrated.fontWeightBold": 300,
+  "terminal.integrated.gpuAcceleration": "off",
+  // ============================================================================
+  // TESTING
+  // ============================================================================
+  "testing.coverageToolbarEnabled": true,
+  // ============================================================================
+  // TODO TREE
+  // ============================================================================
+  "todo-tree.general.tags": [
+    "[ ]",
+    "[x]",
+    "BUG",
+    "FIXME",
+    "HACK",
+    "TODO",
+    "XXX"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  // ============================================================================
+  // VIM
+  // ============================================================================
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.easymotionMarkerForegroundColorOneChar": "#7DCFFF",
+  "vim.easymotionMarkerForegroundColorTwoCharFirst": "#BB9AF7",
+  "vim.easymotionMarkerForegroundColorTwoCharSecond": "#9D7CD8",
+  // "vim.enableNeovim": true,
+  "vim.foldfix": true,
+  "vim.hlsearch": true,
+  "vim.mouseSelectionGoesIntoVisualMode": false,
+  "vim.showMarksInGutter": true,
+  "vim.smartRelativeLine": true,
+  "vim.sneak": true,
+  "vim.sneakReplacesF": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  // "vim.statusBarColors.normal": "#1a1b26",
+  // "vim.statusBarColors.searchinprogressmode": "#16161e",
+  "vim.useSystemClipboard": true,
+  "vim.visualstar": true,
+  // --- Vim Normal Mode Key Bindings ---
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "vspacecode.space"
+      ],
+      "when": "activeEditorGroupEmpty && focusedView == '' && !whichkeyActive && !inputFocus"
+    },
+    {
+      "before": [
+        ","
+      ],
+      "commands": [
+        "vspacecode.space",
+        {
+          "command": "whichkey.triggerKey",
+          "args": "m"
+        }
+      ],
+      "when": "activeEditorGroupEmpty && focusedView == '' && !whichkeyActive && !inputFocus"
+    },
+    {
+      "before": [
+        "g",
+        "."
+      ],
+      "commands": [
+        "editor.action.quickfix"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "h"
+      ],
+      "commands": [
+        "editor.action.showDefinitionPreviewHover"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "l"
+      ],
+      "commands": [
+        "editor.action.openLink"
+      ]
+    },
+    {
+      "before": [
+        "s"
+      ],
+      "commands": [
+        "leap.find"
+      ]
+    }
+  ],
+  // --- Vim Visual Mode Key Bindings ---
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "vspacecode.space"
+      ]
+    },
+    {
+      "before": [
+        ","
+      ],
+      "commands": [
+        "vspacecode.space",
+        {
+          "command": "whichkey.triggerKey",
+          "args": "m"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    }
+  ],
+  // ============================================================================
+  // VSPACECODE
+  // ============================================================================
+  "vspacecode.bindingOverrides": [
+    {
+      "keys": "x.j",
+      "name": "Add cursor below",
+      "type": "command",
+      "icon": "chevron-down",
+      "command": "editor.action.insertCursorBelow",
+      "position": 3,
+    },
+    {
+      "keys": "x.k",
+      "name": "Add cursor above",
+      "type": "command",
+      "icon": "chevron-up",
+      "command": "editor.action.insertCursorAbove",
+      "position": 4,
+    },
+    {
+      "keys": "S.q",
+      "name": "Show qodo",
+      "type": "command",
+      "icon": "window",
+      "command": "workbench.view.extension.codium-sidebar-view-container",
+      "position": 6,
+    },
+    {
+      "keys": "n",
+      "name": "+Notes (Foam)",
+      "icon": "notebook",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "d",
+          "name": "Open daily note",
+          "icon": "calendar",
+          "type": "command",
+          "command": "foam-vscode.open-daily-note"
+        },
+        {
+          "key": "n",
+          "name": "Create new note",
+          "icon": "new-file",
+          "type": "command",
+          "command": "foam-vscode.create-note"
+        },
+        {
+          "key": "t",
+          "name": "Create note from template",
+          "icon": "file-symlink-file",
+          "type": "command",
+          "command": "foam-vscode.create-note-from-template"
+        },
+        {
+          "key": "g",
+          "name": "Show graph",
+          "icon": "type-hierarchy",
+          "type": "command",
+          "command": "foam-vscode.show-graph"
+        },
+        {
+          "key": "r",
+          "name": "Open random note",
+          "icon": "question",
+          "type": "command",
+          "command": "foam-vscode.open-random-note"
+        },
+        {
+          "key": "o",
+          "name": "Open resource",
+          "icon": "link-external",
+          "type": "command",
+          "command": "foam-vscode.open-resource"
+        },
+        {
+          "key": "c",
+          "name": "Copy without brackets",
+          "icon": "clippy",
+          "type": "command",
+          "command": "foam-vscode.copy-without-brackets"
+        },
+        {
+          "key": "j",
+          "name": "Run janitor",
+          "icon": "trash",
+          "type": "command",
+          "command": "foam-vscode.janitor"
+        }
+      ]
+    },
+    {
+      "keys": "t",
+      "name": "+UI toggles",
+      "icon": "tools",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "b",
+          "name": "Toggle side bar visibility",
+          "icon": "split-horizontal",
+          "type": "command",
+          "command": "workbench.action.toggleSidebarVisibility"
+        },
+        {
+          "key": "c",
+          "name": "Toggle auxiliary bar",
+          "icon": "comment-discussion",
+          "type": "command",
+          "command": "workbench.action.toggleAuxiliaryBar"
+        },
+        {
+          "key": "i",
+          "name": "Select icon theme",
+          "icon": "symbol-misc",
+          "type": "command",
+          "command": "workbench.action.selectIconTheme"
+        },
+        {
+          "key": "j",
+          "name": "Toggle panel visibility",
+          "icon": "output",
+          "type": "command",
+          "command": "workbench.action.togglePanel"
+        },
+        {
+          "key": "m",
+          "name": "Toggle maximized panel",
+          "icon": "chevron-up",
+          "type": "command",
+          "command": "workbench.action.toggleMaximizedPanel"
+        },
+        {
+          "key": "s",
+          "name": "Select theme",
+          "icon": "paintcan",
+          "type": "command",
+          "command": "workbench.action.selectTheme"
+        },
+        {
+          "key": "t",
+          "name": "Toggle tool/activity bar visibility",
+          "icon": "tools",
+          "type": "command",
+          "command": "workbench.action.toggleActivityBarVisibility"
+        },
+        {
+          "key": "z",
+          "name": "Toggle zen mode",
+          "icon": "eye",
+          "type": "command",
+          "command": "workbench.action.toggleZenMode"
+        },
+        {
+          "key": "C",
+          "name": "Toggle centered layout",
+          "icon": "list-flat",
+          "type": "command",
+          "command": "workbench.action.toggleCenteredLayout"
+        },
+        {
+          "key": "F",
+          "name": "Toggle full screen",
+          "icon": "screen-full",
+          "type": "command",
+          "command": "workbench.action.toggleFullScreen"
+        },
+        {
+          "key": "M",
+          "name": "Toggle minimap",
+          "icon": "symbol-ruler",
+          "type": "command",
+          "command": "editor.action.toggleMinimap"
+        },
+        {
+          "key": "T",
+          "name": "Toggle tab visibility",
+          "icon": "files",
+          "type": "conditional",
+          "bindings": [
+            {
+              "key": "",
+              "name": "Show editor tabs",
+              "type": "command",
+              "command": "workbench.action.showMultipleEditorTabs"
+            },
+            {
+              "key": "when:editorTabsVisible",
+              "name": "Hide editor tabs",
+              "type": "command",
+              "command": "workbench.action.hideEditorTabs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "keys": "T",
+      "name": "+Toggles",
+      "icon": "settings",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "c",
+          "name": "Toggle find case sensitive",
+          "icon": "case-sensitive",
+          "type": "command",
+          "command": "toggleFindCaseSensitive"
+        },
+        {
+          "key": "l",
+          "name": "Toggle word wrap",
+          "icon": "word-wrap",
+          "type": "command",
+          "command": "editor.action.toggleWordWrap"
+        },
+        {
+          "key": "w",
+          "name": "Toggle render whitespace",
+          "icon": "whitespace",
+          "type": "command",
+          "command": "editor.action.toggleRenderWhitespace"
+        }
+      ]
+    }
+  ],
+  // ============================================================================
+  // WHICHKEY
+  // ============================================================================
+  "whichkey.delay": 250,
+  // ============================================================================
+  // WINDOW
+  // ============================================================================
+  "window.enableMenuBarMnemonics": false,
+  // "workbench.editor.showTabs": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  // ============================================================================
+  // ZEN MODE
+  // ============================================================================
+  "zenMode.hideLineNumbers": false,
+  // ============================================================================
+  // LANGUAGE-SPECIFIC SETTINGS
+  // ============================================================================
+  // --- Dart ---
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  // --- HTML ---
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // --- JavaScript ---
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // --- JSON ---
+  "[jFAB28Eson]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // --- Markdown ---
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // --- XML ---
+  "[xml]": {
+    "editor.defaultFormatter": "mikeburgh.xml-format"
+  },
+  // ============================================================================
+  // THEME CUSTOMIZATIONS
+  // ============================================================================
+  // --- Color Customizations ---
+  "workbench.colorCustomizations": {
+    "window.background": "#FFFFFF",
+    "[Cold Horizon]": {
+      "dart.closingLabels": "#6C6F9377",
+      "editorBracketHighlight.foreground1": "#FAB28E",
+      "editorBracketHighlight.foreground2": "#F43E5C",
+      "editorBracketHighlight.foreground3": "#09F7A0"
+    },
+    "[Horizon*]": {
+      "dart.closingLabels": "#696F9C77",
+      "editorBracketHighlight.foreground1": "#B877DB",
+      "editorBracketHighlight.foreground2": "#21BFC2",
+      "editorBracketHighlight.foreground3": "#09F7A0",
+      "editorCursor.foreground": "#59E3E3"
+    },
+    "[Tokyo Night*]": {
+      "dart.closingLabels": "#747CA1AA",
+      "editorIndentGuide.background1": "#565f8948",
+      "statusBar.background": "#1a1b26",
+      "statusBar.debuggingBackground": "#1a1b26",
+      "statusBar.noFolderBackground": "#1a1b26"
+    }
+  },
+  // --- Semantic Token Color Customizations ---
+  "editor.semanticTokenColorCustomizations": {
+    "[Bearded Theme*]": {
+      "enabled": true,
+      "rules": {
+        "*.declaration": {
+          "bold": true
+        },
+        "parameter": {
+          "fontStyle": "italic"
+        }
+      }
+    },
+    "[Cold Horizon*]": {
+      "enabled": true,
+      "rules": {
+        "*.declaration": {
+          "bold": true
+        },
+        "enumMember": "#B877DB",
+        "keyword": {
+          "bold": true,
+          "italic": true
+        },
+        "keyword.control": {
+          "bold": false,
+          "italic": false
+        },
+        "parameter": "#B877DB",
+        "variable": "#B877DB"
+      }
+    },
+    "[Horizon*]": {
+      "enabled": true,
+      "rules": {
+        "*.declaration": {
+          "bold": true
+        }
+      }
+    },
+    "[Moonlight*]": {
+      "enabled": true,
+      "rules": {
+        "*.declaration": {
+          "bold": true
+        },
+        "parameter": {
+          "fontStyle": "italic"
+        }
+      }
+    },
+    "[Night Owl]": {
+      "enabled": true,
+      "rules": {
+        "*.declaration": {
+          "bold": true
+        },
+        "class": "#fccb8b",
+        "parameter": {
+          "fontStyle": "italic"
+        }
+      }
+    },
+    "[Outrun*]": {
+      "enabled": true
+    },
+    "[Radical]": {
+      "enabled": true,
+      "rules": {
+        "parameter": {
+          "fontStyle": "italic"
+        }
+      }
+    },
+    "[Tailwind*]": {
+      "enabled": true,
+      "rules": {
+        "parameter": {
+          "fontStyle": "italic"
+        }
+      }
+    },
+    "[Tokyo Night*]": {
+      "enabled": true,
+      "rules": {
+        "parameter": {
+          "fontStyle": "italic"
+        },
+        "variable": "#7dcfff"
+      }
+    }
+  },
+  // --- Token Color Customizations (TextMate Rules) ---
+  "editor.tokenColorCustomizations": {
+    "[Bearded Theme Arc*]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "keyword.operator",
+            "keyword.operator.assignment",
+            "keyword.operator.comparison",
+            "keyword.operator.logical"
+          ],
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        }
+      ]
+    },
+    "[Cold Horizon]": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "foreground": "#6C6F93"
+          }
+        },
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        },
+        {
+          "scope": "punctuation",
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        },
+        {
+          "scope": "source.dart",
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#FDF0ED"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#27D796"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#27D796"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#27D796"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#27D796"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#09F7A0"
+          }
+        }
+      ]
+    },
+    "[Horizon*]": {
+      "textMateRules": [
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#07DA8C"
+          }
+        },
+        {
+          "scope": "string.quoted",
+          "settings": {
+            "foreground": "#21BFC2"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#E9436F"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#E95379"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#E9436F"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#E95379"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#B877DB"
+          }
+        },
+        {
+          "scope": [
+            "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#E9436F"
+          }
+        }
+      ]
+    },
+    "[Night Owl*]": {
+      "textMateRules": [
+        {
+          "scope": "entity.name.function",
+          "settings": {}
+        }
+      ]
+    },
+    "[Overnight Italics]": {
+      "textMateRules": [
+        {
+          "scope": "support.class",
+          "settings": {
+            "foreground": "#FAD430"
+          }
+        }
+      ]
+    }
+  },
+  "remote.SSH.remotePlatform": {
+    "192.168.1.30": "linux",
+    "docker-vm": "linux"
+  },
+  "foam.files.defaultNoteExtension": "qmd",
+  "files.associations": {
+    "*.qmd": "markdown"
+  },
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "fish": {
+      "path": "fish",
+      "args": [
+        "-l"
+      ]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "codium.agenticAiCliCommands": [],
+  "workbench.colorTheme": "Horizon Italic",
+  "chat.disableAIFeatures": true,
+  "git.ignoredRepositories": [
+    "~/dev/sdks/flutter"
+  ],
+  "scm.repositories.selectionMode": "single",
+  "chat.editor.fontSize": 16,
+  "markdown.preview.fontFamily": "'FiraCode Nerd Font', 'FiraCode NF Retina', 'BlexMono NF', 'CaskaydiaCove NF'",
+  "markdown.preview.fontSize": 16,
+  "chat.editor.fontFamily": "'FiraCode Nerd Font', 'FiraCode NF Retina', 'BlexMono NF', 'CaskaydiaCove NF'",
+  "notebook.markup.fontFamily": "'FiraCode Nerd Font', 'FiraCode NF Retina', 'BlexMono NF', 'CaskaydiaCove NF'",
+  "notebook.output.fontFamily": "'FiraCode Nerd Font', 'FiraCode NF Retina', 'BlexMono NF', 'CaskaydiaCove NF'",
+  "claudeCode.preferredLocation": "panel",
+  "amazonQ.suppressPrompts": {
+    "amazonQChatDisclaimer": true
+  },
+  "kiroAgent.modelSelection": "auto",
+  "kiroAgent.trustedCommands": [
+    "mkdir *",
+    "flutter *",
+    "dart *",
+    "head *",
+    "hexdump *",
+    "wc *",
+    "grep *",
+    "cat *",
+    "ls *",
+    "git diff *",
+    "git log *",
+    "git restore *",
+    "git stash",
+    "git checkout *",
+    "melos *",
+    "tail *",
+    "git branch *",
+    "git merge-base *",
+    "git rev-parse *",
+    "sed *",
+    "git tag *",
+    "git show *",
+    "git stash *",
+    "python3 *",
+    "pod *",
+    "git reset *",
+    "lcov *",
+    "git status",
+    "git status *",
+    "mv *",
+    "fvm flutter *",
+    "date *",
+    "git remote *",
+    "which *",
+    "fvm dart *",
+    "find *",
+    "rsync *",
+    "echo *",
+    "test *",
+    "rm *"
+  ],
+  "kiroAgent.trustedTools": [
+    "web_fetch",
+    "remote_web_search"
+  ],
+  "kiroAgent.agentAutonomy": "Autopilot",
+  "kiroAgent.notifications.agent.success": true,
+  "kiroAgent.notifications.agent.failure": true
+}

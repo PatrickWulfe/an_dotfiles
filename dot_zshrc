@@ -1,0 +1,57 @@
+source "$HOMEBREW_PREFIX/share/antigen/antigen.zsh"
+antigen use oh-my-zsh
+
+antigen bundle brew
+antigen bundle command-not-found
+antigen bundle git
+antigen bundle github
+antigen bundle macos
+antigen bundle pip
+
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
+
+antigen apply
+
+[[ -f "$HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh" ]] && \
+  source "$HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh"
+
+export EDITOR="emacs"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
+export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:/opt/homebrew/share/pkgconfig:$PKG_CONFIG_PATH"
+
+export PATH="\
+$HOME/fvm/default/bin:\
+$HOME/.pub-cache/bin:\
+$HOME/.config/emacs/bin:\
+$JAVA_HOME/bin:\
+$HOME/.local/bin:\
+$PATH"
+
+export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
+if [[ -z "$SSH_AUTH_SOCK" ]]; then
+  eval "$(ssh-agent -s)" >/dev/null
+fi
+
+ssh-add --apple-use-keychain ~/.ssh/ado 2>/dev/null
+ssh-add --apple-use-keychain ~/.ssh/id_rsa 2>/dev/null
+
+[[ -f "$HOME/.local/config/aliases.sh" ]] && source "$HOME/.local/config/aliases.sh"
+
+[[ -f "$HOME/.dart-cli-completion/zsh-config.zsh" ]] && \
+  source "$HOME/.dart-cli-completion/zsh-config.zsh"
+
+[[ -f "$HOME/.config/secrets.env" ]] && source "$HOME/.config/secrets.env"
+
+eval "$(starship init zsh)"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"

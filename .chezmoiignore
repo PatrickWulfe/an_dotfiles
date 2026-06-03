@@ -1,0 +1,22 @@
+# Secrets (tokens, API keys)
+.config/secrets.env
+
+# SSH private keys (only config is tracked)
+.ssh/id_rsa
+.ssh/ado
+.ssh/known_hosts
+.ssh/known_hosts.old
+.ssh/agent
+
+# Generated / compiled files
+.zshrc.zwc
+.zcompdump
+.zsh_history
+.DS_Store
+**/.DS_Store
+~/.kiro/steering/.agent-shell/
+~/.kiro/skills/**/.agent-shell/
+
+# Nvim has its own git repo — don't track its .git internals
+.config/nvim/.git
+.config/nvim/.qodo
