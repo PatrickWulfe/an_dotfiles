@@ -1,0 +1,66 @@
+#+TITLE: Dotfiles
+#+AUTHOR: Patrick Wulfe
+
+My dotfiles, managed with [[https://www.chezmoi.io/][chezmoi]].
+
+* Install
+
+#+begin_src shell
+git clone https://github.com/PatrickWulfe/an_dotfiles.git ~/.local/share/chezmoi
+~/.local/share/chezmoi/install.sh
+#+end_src
+
+After install, create =~/.config/secrets.env= with your tokens:
+
+#+begin_src shell
+export AZURE_DEVOPS_PAT="..."
+export CODA_API_KEY="..."
+export CONFIGCAT_API_USER="..."
+export CONFIGCAT_API_PASS="..."
+#+end_src
+
+* What's Included
+
+| Path                          | Description                              |
+|-------------------------------+------------------------------------------|
+| =.zshrc=                      | Zsh config (antigen, PATH, SSH agent)    |
+| =.zshrc.org=                  | Literate source for .zshrc               |
+| =.zprofile=                   | Homebrew shell env                       |
+| =.gitconfig=                  | Git identity                             |
+| =.ideavimrc=                  | JetBrains vim bindings (intellimacs)     |
+| =.ssh/config=                 | SSH hosts (encrypted with age)           |
+| =.config/doom/=               | Doom Emacs (literate config via org)     |
+| =.config/nvim/=               | Neovim (LazyVim)                         |
+| =.config/starship.toml=       | Starship prompt                          |
+| =.config/git/ignore=          | Global gitignore                         |
+| =.local/config/aliases.sh=    | Shell aliases and functions              |
+| =.kiro/steering/=             | Kiro AI steering files                   |
+| =.kiro/skills/=               | Kiro AI skills (code-review, daily-update) |
+| =Library/.../Code/User/=      | VS Code settings & keybindings           |
+| =Library/.../Kiro/User/=      | Kiro IDE settings & keybindings          |
+
+* Kiro Config
+
+The =.kiro/= directory contains AI agent configuration:
+
+- *Steering files* — persistent rules that shape agent behavior (coding standards, project conventions, workflow automation)
+- *Skills* — on-demand capabilities triggered by user intent (code review, daily standup generation)
+
+See the individual files for details on what each one does.
+
+* Dependencies
+
+Installed by =install.sh=:
+
+- [[https://brew.sh/][Homebrew]]
+- [[https://www.chezmoi.io/][chezmoi]]
+- [[https://github.com/zsh-users/antigen][antigen]]
+- [[https://starship.rs/][starship]]
+- [[https://github.com/MichaelAqworter/zsh-you-should-use][zsh-you-should-use]]
+- [[https://github.com/ali-rantakari/trash][trash]]
+
+Not installed automatically (install manually):
+
+- [[https://github.com/doomemacs/doomemacs][Doom Emacs]]
+- [[https://github.com/nicknisi/dotfiles][FiraCode Nerd Font]]
+- [[https://github.com/FiloSottile/age][age]] (for encrypted files)
